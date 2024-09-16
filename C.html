@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="/action_page.py" method="post" autocomplete="on">
+            <label for="text">First Name:</label>
+            <input type="text" id="fname" name="First_name"><br><br>
+            <label for="text">Last Name:</label>
+            <input type="text" id="lname" name="Last_name"><br>
+            <br>
+            <fieldset>
+                <legend>Details</legend>
+                <p>Choose your Role:</p>
+                <input type="radio" id="Teacher" name="Teacher" value="Teacher">
+                <label for="Teacher">Teacher</label><br>
+                <input type="radio" id="Student" name="Student" value="Student">
+                <label for="Student">Student</label><br>
+                <br>
+                </select>
+                    <label for="department">Choose a department:</label>
+                    <select name="department" id="department">
+                    <option value="IT">IT</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Electrical">Electrical</option>
+                    <option value="Mechinical">Mechinical</option>
+                </select>
+                <br>
+                <p>Choose your club(s):</p>
+                <input type="checkbox" id="CB" name="CB" value="CB">
+                <label for="CB">Cultural Club</label>
+                <br>
+                <input type="checkbox" id="MC" name="MC" value="MC">
+                <label for="MC">Media Club</label>
+                <br>
+                <input type="checkbox" id="HHC" name="HHC" value="HHC">
+                <label for="HHC">Helping Hand Club</label><br>
+                <br></b>
+                <input type="submit" value="submit">    
+            </fieldset>
+        </form>    
+    </body>
+</html>
